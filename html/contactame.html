@@ -1,0 +1,66 @@
+<html>
+<!-- Iván Della Ventura López -->
+<head>
+	<link rel="stylesheet" href="../css/css.css">
+</head>
+
+
+<body>
+<div id="header">
+		<ul>
+			<li><a href="../index.html">Tim Berners Lee Berners-Lee</a> </li>
+			<li><a href="portfolio.html">Portfolio</a> </li>
+			<li><a href="precios.html">Tabla de Precios</a> </li>
+			<li><a href="contactame.html">Contactame</a> </li>
+		</ul>
+		<img src="../imagenes/imagen-menu.png" usemap="#menu">
+		<map name="menu">
+		<area shape="rect" coords="15,45,106,132" href= "../index.html">
+		<area shape="circle" coords= "172,91,48"href="portfolio.html">
+		<area shape="poly" coords= "231,134,287,43,343,134"href="precios.html">
+		<area shape="rect" coords="351,33,438,139"href="contactame.html">
+		<area shape="default" nohref="nohref">
+</div>
+<div id="main-content"> 
+<h1> Contactame </h1>
+<h3> Formulario de Contacto </h3>
+<form action="contactar.php" method="post">
+<fieldset> <legend> Datos personales </legend>
+Nombre: <input type="text" name="nombre" value="" placeholder="introduce tu nombre"/><br>
+Apellidos: <input type="text" name="apellidos" value=""  placeholder="introduce tus apellidos"/><br>
+Email: <input id="emailAddress" type="email"> <br>
+Fecha de Nacimiento: <input id="date" type="date"><br>
+Edad:<input id="number" type="number" value=""><br>
+Sexo:
+<input type="radio" name="sexo" value="hombre" checked="checked" /> Hombre
+<input type="radio" name="sexo" value="mujer" /> Mujer<br>
+País:<select id="Pais" name="Pais">
+<option value="" selected="selected">- selecciona -</option>
+<option value="españa">España</option>
+<option value="Portugal">Portugal</option>
+<option value="otro">Otro</option>
+</select><br>
+</fieldset> 
+<fieldset> <legend> Otros datos </legend>
+Mensaje:
+<textarea id="descripcion" name="descripcion" cols="40" rows="10" placeholder="introduce tu mensaje"></textarea><br>
+
+Adjunta una foto... <input type="file" name="adjunto" /><br>
+</fieldset>
+<input name="Aceptar" type="checkbox" value="Aceptar"/> He leído las condiciones...<br>
+<input type="reset" name="limpiar" value="Limpiar" />
+<input type="submit" name="buscar" value="Enviar" />
+</form>
+</div>
+<div id="side-content"> 
+<h1> Centro de referencia </h1>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14031.118932241417!2d-16.2832682!3d28.4560556!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab9f2a74d9e68b51!2sCIFP%20C%C3%A9sar%20Manrique!5e0!3m2!1ses!2ses!4v1636554249595!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+<br>
+<div id="footer">
+Ⓒ 2040 <a href="nohref"> www.MiSitio.com </a>
+</div>
+
+</body>
+
+</html>

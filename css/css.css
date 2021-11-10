@@ -1,0 +1,41 @@
+/* Iván Della Ventura */
+div p img, video, iframe{
+	max-width: 50%;
+	widht: fit.content;
+}
+.relleno {
+	padding-left: 70px;
+}
+body {
+    margin: 0;
+    padding: 0;
+	padding-top: 20;
+	padding-bottom: 20;
+    background-color: burlywood;
+}
+
+#header {
+    background-color: antiquewhite;
+	
+}
+#main-content {
+    background-color:cadetblue;
+}
+#side-content {
+    background-color: chocolate;
+}
+#footer {
+    background-color: cornflowerblue;
+}
+
+table {
+    /* border: 1px solid blue; */
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid gray;
+}
+
+.articulo {
+    background-color: lightsalmon;
+}
